@@ -45,7 +45,7 @@ public class OpenAI implements IOpenAI {
                 "     \"model\": \"gpt-3.5-turbo\",\n" +
                 "     \"messages\": [{\"role\": \"user\", \"content\": \"" + question + "\"}],\n" +
                 "     \"temperature\": 0.7,\n" +
-                "     \"max_tokens\": 500\n" +
+                "     \"max_tokens\": 250\n" +
                 "   }";
 
         StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
